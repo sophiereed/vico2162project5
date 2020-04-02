@@ -1,0 +1,15 @@
+body {
+	margin: 10px;
+	padding: 10px;
+}
+
+h1 {
+	border-bottom-style: double;
+	border-bottom-width: 10px;
+	margin: 6px;
+	padding: 6px;
+}
+
+form { 
+color: cornflowerblue;
+}
