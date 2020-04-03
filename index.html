@@ -12,30 +12,25 @@
 	<p> This form will record your name, email address and your coffee order.</p>
 
 	<form>
-		<div class="form-group">
-			<label for="InputName1">Name</label>
-			<input type="name" class="form-control" id="InputName1" aria-describedby="nameHelp">
-			<small id="nameHelp" class="form-text text-muted"></small>
-		</div>
 
-		<div class="form-group">
-			<label for="InputEmail1">Email address</label>
-			<input type="email" class="form-control" id="InputEmail1" aria-describedby="emailHelp">
-			<small id="emailHelp" class="form-text text-muted"></small>
-		</div>
+		<label for="fname">First name:</label><br>
+		<input type="text" id="fname" name="fname" value="John"><br>
+		<label for="lname">Last name:</label><br>
+		<input type="text" id="lname" name="lname" value="Doe"><br><br>
 
-		<div class="form-group">
-			<label for="InputCoffee1">Coffee Order</label>
-			<input type="coffee" class="form-control" id="InputCoffee1" aria-describedby="coffeeHelp">
-			<small id="coffeeHelp" class="form-text text-muted"></small>
-		</div>
+		<label for="freshman">Freshman</label><br>
+		<input type="radio" id="freshman" name="grade" value="freshman">
 
-		<div class="form-group">
-			<label for="formControlRange">How much do you like coffee?</label>
-			<input type="range" class="form-control-range" id="formControlRange">
-		</div>
+		<label for="sophomore">Sophomore</label><br>
+		<input type="radio" id="sophomore" name="grade" value="sophomore">
 
-		<button type="submit" class="btn btn-primary">Submit</button>
+		<label for="junior">Junior</label>
+		<input type="radio" id="junior" name="grade" value="junior">
+
+		<label for="senior">Senior</label>
+		<input type="radio" id="senior" name="grade" value="senior">
+
+		<input type="submit" value="Submit">
 
 	</form>
 
